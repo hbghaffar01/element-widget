@@ -1,0 +1,17 @@
+.searchFilter {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-small);
+  flex-wrap: wrap;
+}
+
+.searchInput,
+.filterSelect {
+  flex: 1;
+  padding: var(--spacing-xs);
+}
+
+.filterSelect,
+.searchInput:focus-visible {
+  outline: none;
+}

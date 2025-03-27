@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #4caf50;
+  --color-secondary: #f44336;
+  --color-hover-secondary: #f06359;
+  --color-background: #f4f4f4;
+  --color-background-dark: #000;
+  --color-text: #333;
+  --color-white-text: #fff;
+  --border-radius: clamp(4px, 2vw, 12px);
+  --spacing-small: clamp(0.5rem, 2vw, 1rem);
+  --spacing-xs: clamp(0.5rem, 1vw, 0.5rem);
+  --spacing-medium: clamp(1rem, 4vw, 1rem);
+  --font-size-base: clamp(14px, 2vw, 16px);
+}

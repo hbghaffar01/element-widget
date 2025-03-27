@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+}
+
+.modalInner {
+  display: flex;
+  flex-direction: column;
+  background-color: #141414;
+  gap: var(--spacing-medium);
+  margin-top: 1rem;
+}
+
+.elementList {
+  max-height: 300px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.elementList::-webkit-scrollbar {
+  display: none;
+}
+
+.elementItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-small);
+  padding: var(--spacing-small);
+  color: var(--color-white-text);
+}

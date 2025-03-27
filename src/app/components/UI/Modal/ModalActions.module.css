@@ -1,0 +1,44 @@
+.modalHeader {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.modalFooterHeading {
+  line-break: anywhere;
+  color: white;
+  padding: 1rem 0;
+}
+
+.itemContainer {
+  display: flex;
+  align-items: start;
+  gap: var(--spacing-small);
+  flex-wrap: wrap;
+}
+
+.selectedItem {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-background-dark);
+  color: var(--color-white-text);
+  padding: var(--spacing-xs);
+  font-size: var(--font-size-base);
+}
+
+.removeButton {
+  margin-left: var(--spacing-small);
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--spacing-small);
+  margin-top: 1rem;
+}

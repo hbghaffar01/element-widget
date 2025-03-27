@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.modalHeading {
+  line-break: anywhere;
+  color: white;
+  padding: 1rem 0;
+}
+
+.itemsCounter {
+  line-break: anywhere;
+  color: white;
+  padding: var(--spacing-xs) 0;
+}
+
+.itemContainer {
+  display: flex;
+  align-items: start;
+  gap: var(--spacing-small);
+  flex-wrap: wrap;
+  margin: var(--spacing-small) 0;
+}
+
+.selectedItem {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-background-dark);
+  color: var(--color-white-text);
+  padding: var(--spacing-xs);
+  font-size: var(--font-size-base);
+}
+
+.removeButton {
+  margin-left: var(--spacing-small);
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.changeChoiceButton {
+  margin: var(--spacing-small) 0;
+}
