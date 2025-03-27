@@ -49,8 +49,8 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone git@github.com:hbghaffar01/element-widget.git
+   cd element-widget
    ```
 2. Install dependencies:
    ```sh
